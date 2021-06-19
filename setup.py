@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=setuptools.find_packages()
+    packages=setuptools.find_packages(),
     include_package_data=True,
     install_requires=["pandas", "numpy","matplotlib","plotly"]
 )
