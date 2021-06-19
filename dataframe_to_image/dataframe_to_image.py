@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
-def dataframe_to_image(df,visualisation_library):
+def convert(df,visualisation_library):
     """
     Returns a downloadable image version of a dataframe
     Input: Pandas DataFrame
