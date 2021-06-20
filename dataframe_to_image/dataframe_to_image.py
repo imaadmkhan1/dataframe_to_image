@@ -40,6 +40,5 @@ def convert(df,visualisation_library):
             header=dict(values=list(df.columns),
                         align='left'),
             cells=dict(values=df.transpose().values.tolist(),
-                       align='left'))
-                             ])
+                       align='left'))])
         fig.show()
