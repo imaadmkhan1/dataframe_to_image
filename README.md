@@ -16,3 +16,4 @@ df['gym'] = [True, False, False]
 #converting to image
 dataframe_to_image.convert(df,visualisation_library='matplotlib')
 ```
+![Example Output](../main/images/example.png)
