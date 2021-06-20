@@ -21,3 +21,7 @@ dataframe_to_image.convert(df,visualisation_library='matplotlib')
 ![Example Output](../main/images/example.png)
 
 Once you have the image ready, you can right click on the image and click 'Save image as' to save the image of your dataframe (when using matplotlib). For Plotly, you can just click on the camera icon on the top right to save your image.
+
+Usage:
+Depending on the visualisation library, the table image will change. </br>
+Currently,implementations for two backend libraries have been made - matplotlib and plotly. Please feel free to open PR if you would like to add more backend visualisation libraries.
